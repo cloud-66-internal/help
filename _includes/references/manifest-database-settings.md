@@ -4,6 +4,16 @@ This reference doc details all the Manifest settings for **data**, **caching** a
 
 If you're looking for the Manifest settings for [webservers & frameworks](/{{page.collection}}/references/manifest-web-settings.html) or [load balancers](/{{page.collection}}/references/manifest-loadbalancer-settings.html), please see our respective reference documents for those components.
 
+## Specifying external databases via your manifest
+
+If your app uses databases that aren't managed by Cloud 66 you can still specify them via your Manifest. To set a database as external via your manifest, use the following syntax:
+
+```yaml
+# For example, an external MySQL server
+mysql: 
+  server: external
+```
+
 ### Key to table headings
 
 * **Option** - the name of the setting as used in the YAML of your Manifest file

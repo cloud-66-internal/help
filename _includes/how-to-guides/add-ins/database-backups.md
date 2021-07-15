@@ -19,20 +19,20 @@ Using managed backups has several benefits:
 - You can easily restore database backups
 - Stored in Cloud 66 storage
 
-The 100 most recent managed backups are kept by default.
+The 100 most recent managed backups are kept by default. See below for our pricing.
 
 ### Unmanaged backups
 
-Unmanaged backups are stored on your local server and are available under `/var/cloud66/backups`. The 10 most recent unmanaged backups are kept by default.
+Unmanaged backups are stored on your local server and are available under `/var/cloud66/backups`. The 10 most recent unmanaged backups are kept by default. We don't charge for unmanaged backups.
 
 #### Note
 <div class="notice notice-danger">
 	<p>In order for backups to work, you are required to have twice as much space on your server as your backup consumes.</p>
 </div>
 
-## Pricing
+## Pricing of managed backups
 
-We charge per GB (or part thereof) of data stored. See our [pricing page](/{{page.collection}}/resources/pricing.html) for the most up to date price.
+We charge per GB (or part thereof) of data stored for managed backups. See our [pricing page](/{{page.collection}}/resources/pricing.html) for the most up to date price.
 
 ## Backup format
 The backup format for redis and mongodb is always **binary**.  For _MySQL_ and _Postgresql_ you can choose between **binary** and **text**. 
@@ -93,9 +93,9 @@ We recommend using the automated restore process to restore backups. To do this:
 
 If you need to manually download and/or restore a backup, please read our in-depth guide on [manually managing database backups](/{{page.collection}}/how-to-guides/databases/shells/manage-backups.html).
 
-## Backup storage locations
+## Managed backup storage locations
 
-We store your backups in the closest possible AWS region to your servers. At the moment we store data in the following regions:
+We store your managed backups in the closest possible AWS region to your servers. At the moment we store data in the following regions:
 
 * af-south-1 
 * ap-east-1

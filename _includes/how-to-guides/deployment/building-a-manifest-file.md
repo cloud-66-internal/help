@@ -40,7 +40,7 @@ If you explicitly set the version of any component in your manifest file, we wil
 
 Manifest files are made up of blocks of settings that define the infrastructural elements of your application. This includes both the “hardware” (virtual or real servers) and the “software” (such as the version of Docker your application uses). 
 
-A typical block of settings will contain come combination the following:
+A typical block of settings will contain some combination the following:
 
 - **Environment** (optional) - the environment to which the settings apply
 - **Component settings** (required) - the settings for the component being configured (e.g. MySQL or an AWS Load Balancer)
